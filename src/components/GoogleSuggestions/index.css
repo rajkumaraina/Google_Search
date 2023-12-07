@@ -1,0 +1,40 @@
+.mainContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.insideContainer {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 35%;
+  border-radius: 12px;
+  padding: 8px;
+}
+.img {
+  width: 250px;
+  height: 100px;
+  margin: 20px;
+}
+.staticSearch {
+  display: flex;
+  flex-direction: row;
+}
+.searchImg {
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+}
+.input {
+  background-color: #ffffff;
+  outline: none;
+  border: 0px none;
+}
+.unordered {
+  margin-left: 0;
+}
+.listContainer {
+  margin: 0px;
+}
